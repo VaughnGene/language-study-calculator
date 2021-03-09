@@ -1,1 +1,1 @@
-# tullys
+# Language Study application
