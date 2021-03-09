@@ -9,7 +9,7 @@ function time_convert(num) {
 }
 
 function finalCalculation() {
-    //validate numbers (okay)
+    //validate numbers
     if (reps.value == "") {
         output.innerHTML = `<p>Please input a number</p>`
     }
@@ -21,12 +21,12 @@ function finalCalculation() {
 
         output.innerHTML = time_convert(timeToFinish.toFixed()) + ' time to completion'
     }
-    
+
 }
 
 sub.addEventListener('click', finalCalculation)
 
-reps.addEventListener("keyup", function(event) {
+reps.addEventListener("keyup", function (event) {
     event.preventDefault();
     if (event.keyCode === 13) {
         sub.click();
