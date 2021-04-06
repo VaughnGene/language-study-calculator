@@ -17,6 +17,14 @@ reps.addEventListener("keyup", function (event) {
     }
 });
 
+// Add a space bar option here 
+
+// -----------
+
+
+
+//------------
+
 sub.addEventListener('click', finalCalculation)
 
 
