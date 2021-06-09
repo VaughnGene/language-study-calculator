@@ -2,7 +2,8 @@
 
 
 #desk {
-    filter: invert(0.1);
+    /* filter: invert(0.1); */
+    filter: grayscale(100%);
 }
 :root {
     font-family: 'Montserrat';
